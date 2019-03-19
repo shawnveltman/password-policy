@@ -84,5 +84,7 @@ class PasswordPolicy
         {
             return redirect()->route('reset-password');
         }
+
+        return redirect()->route(config('password-policy.successful_redirect_route'));
     }
 }

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c035aff-c10d-4652-a64e-265785903b62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7c035aff-c10d-4652-a64e-265785903b62" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Http/Controllers/PasswordPolicyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="495">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="56" />
               <folding>
                 <element signature="e#63#99#0#PHP" expanded="true" />
                 <element signature="e#214#294#0#PHP" expanded="true" />
@@ -50,9 +48,9 @@
         <option value="$PROJECT_DIR$/src/PasswordPolicy.php" />
         <option value="$PROJECT_DIR$/src/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/show.blade.php" />
-        <option value="$PROJECT_DIR$/src/Http/Controllers/PasswordPolicyController.php" />
         <option value="$PROJECT_DIR$/tests/PasswordPolicyLaravelTest.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/src/Http/Controllers/PasswordPolicyController.php" />
       </list>
     </option>
   </component>
@@ -236,15 +234,16 @@
       <workItem from="1552952381920" duration="2825000" />
       <workItem from="1553006006573" duration="3567000" />
       <workItem from="1553010139466" duration="2658000" />
-      <workItem from="1553020278856" duration="624000" />
+      <workItem from="1553020278856" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9674000" />
+    <option name="totallyTimeSpent" value="10171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -385,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Http/Controllers/PasswordPolicyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="495">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="56" />
           <folding>
             <element signature="e#63#99#0#PHP" expanded="true" />
             <element signature="e#214#294#0#PHP" expanded="true" />
