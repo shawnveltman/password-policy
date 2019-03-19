@@ -1,0 +1,55 @@
+{
+    "name": "simplesales/password-policy",
+    "description": "Implements a Password Policy on login",
+    "keywords": [
+        "simplesales",
+        "password-policy"
+    ],
+    "homepage": "https://github.com/simplesales/password-policy",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shawn Veltman",
+            "email": "shawn.veltman@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^5.7",
+        "laravelcollective/html": "^5.7"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simplesales\\PasswordPolicy\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Simplesales\\PasswordPolicy\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simplesales\\PasswordPolicy\\PasswordPolicyServiceProvider"
+            ],
+            "aliases": {
+                "PasswordPolicy": "Simplesales\\PasswordPolicy\\PasswordPolicyFacade"
+            }
+        }
+    }
+}
